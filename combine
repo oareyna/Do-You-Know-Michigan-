@@ -61,7 +61,7 @@ def greet_user(username):
     global point
     screen.fill((250, 250, 250))
     screen.blit(kuromi, (0, 0))
-    if username.lower() == "giselle" or username.lower() == "nicholas" or username.lower() == "leo":
+    if username.lower() == "nicholas":
         point -= 100
     elif username.lower() == "olivia":
         point += 1000
